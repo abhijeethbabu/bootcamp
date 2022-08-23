@@ -1,5 +1,7 @@
 package com.methods;
 
+import java.util.Arrays;
+
 public class RandomCode {
     int x = 10;
     public static void main(String[] args) {
@@ -11,7 +13,10 @@ public class RandomCode {
 
 //        }
 //        System.out.println(c);
-        System.out.println(2 & 4 | 4 & 4 | 4 & 4);
+        int[][] a = {{1,2,3}, {3,4,5}, {6,7,8}};
+        for(int[] arr : a) {
+            System.out.println(Arrays.toString(arr));
+        }
 
     }
 

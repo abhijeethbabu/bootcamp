@@ -1,8 +1,10 @@
 package newton.kadane;
 
+import newton.hashmaps.ContigousArray;
+
 public class CoolAndHot {
     public static void main(String[] args) {
-
+        ;
     }
     private static long kadaneMax (long[] nums) {
         long msf = nums[0], max = nums[0];
